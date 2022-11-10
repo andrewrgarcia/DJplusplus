@@ -9,7 +9,7 @@ int main()
     auto start_time = std::chrono::high_resolution_clock::now ();
 
     sf::SoundBuffer buffer;
-    if (!buffer.loadFromFile("robotic.wav")){
+    if (!buffer.loadFromFile("tertis.wav")){
         return -1;
     }
     sf::Sound sound;
@@ -27,7 +27,7 @@ int main()
             =  0.000001f * static_cast<int> ( delta_time_microsec.count ());
         // std::cout << delta_time_seconds;
 
-        auto time_limit{2};     // song length
+        auto time_limit{16};     // song length
         
 
         if (delta_time_seconds > time_limit){
