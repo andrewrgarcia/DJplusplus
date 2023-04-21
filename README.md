@@ -1,4 +1,4 @@
-# DJ++
+# audio c++
 
 Audio manipulation with C++
 
